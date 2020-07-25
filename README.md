@@ -9,3 +9,5 @@ This repo uses a technique where columns become rows when window gets smaller. I
 
 ## Credits
 This project is derived from https://codepen.io/geoffyuen/pen/FCBEg. Thank you very much for the idea.
+
+**BTW:** This even works in IE11.
