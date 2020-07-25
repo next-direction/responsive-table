@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive tables</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<h1>Stacking tables</h1>
+<h3>Resize the window to see stacking tables in action</h3>
+
+<h4>1 column never breaks</h4>
+
+<table class="stacking-table columns-1">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+  </tr>
+  </tbody>
+</table>
+
+<h4>2 columns break at 420px</h4>
+
+<table class="stacking-table columns-2">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Genre</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+    <td data-th="Genre">Adventure, Sci-fi</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+    <td data-th="Genre">"Comedy"</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+    <td data-th="Genre">Comedy, Drama</td>
+  </tr>
+  </tbody>
+</table>
+
+<h4>3 columns break at 580px</h4>
+
+<table class="stacking-table columns-3">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Genre</th>
+    <th>Year</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+    <td data-th="Genre">Adventure, Sci-fi</td>
+    <td data-th="Year">1977</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+    <td data-th="Genre">"Comedy"</td>
+    <td data-th="Year">1986</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+    <td data-th="Genre">Comedy, Drama</td>
+    <td data-th="Year">1973</td>
+  </tr>
+  </tbody>
+</table>
+
+<h4>4 columns break at 668px</h4>
+
+<table class="stacking-table columns-4">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Genre</th>
+    <th>Year</th>
+    <th>Gross</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+    <td data-th="Genre">Adventure, Sci-fi</td>
+    <td data-th="Year">1977</td>
+    <td data-th="Gross">$460,935,665</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+    <td data-th="Genre">"Comedy"</td>
+    <td data-th="Year">1986</td>
+    <td data-th="Gross">$16,295,774</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+    <td data-th="Genre">Comedy, Drama</td>
+    <td data-th="Year">1973</td>
+    <td data-th="Gross">$115,000,000</td>
+  </tr>
+  </tbody>
+</table>
+
+<h4>5 columns break at 768px</h4>
+
+<table class="stacking-table columns-5">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Genre</th>
+    <th>Year</th>
+    <th>Gross</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+    <td data-th="Genre">Adventure, Sci-fi</td>
+    <td data-th="Year">1977</td>
+    <td data-th="Gross">$460,935,665</td>
+    <td data-th="Actions">afgs 3462345 23453adfadsf asdfatera 63</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+    <td data-th="Genre">"Comedy"</td>
+    <td data-th="Year">1986</td>
+    <td data-th="Gross">$16,295,774</td>
+    <td data-th="Actions">dfhwtz353543</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+    <td data-th="Genre">Comedy, Drama</td>
+    <td data-th="Year">1973</td>
+    <td data-th="Gross">$115,000,000</td>
+    <td data-th="Actions">asdasdfhw</td>
+  </tr>
+  </tbody>
+</table>
+
+<h4>6 columns break at 880px</h4>
+
+<table class="stacking-table columns-6">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Genre</th>
+    <th>Year</th>
+    <th>Gross</th>
+    <th>Anothercolumn</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+    <td data-th="Genre">Adventure, Sci-fi</td>
+    <td data-th="Year">1977</td>
+    <td data-th="Gross">$460,935,665</td>
+    <td data-th="Anothercolumn">ertzsfdg qwetasd qerasdfa qera</td>
+    <td data-th="Actions">afgs 3462345 23453adfadsf asdfatera 63</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+    <td data-th="Genre">"Comedy"</td>
+    <td data-th="Year">1986</td>
+    <td data-th="Gross">$16,295,774</td>
+    <td data-th="Anothercolumn">egjuretu456</td>
+    <td data-th="Actions">dfhwtz353543</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+    <td data-th="Genre">Comedy, Drama</td>
+    <td data-th="Year">1973</td>
+    <td data-th="Gross">$115,000,000</td>
+    <td data-th="Anothercolumn">ef234574845</td>
+    <td data-th="Actions">asdasdfhw</td>
+  </tr>
+  </tbody>
+</table>
+
+<h4>7 columns break at 1024px</h4>
+
+<table class="stacking-table columns-7">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Genre</th>
+    <th>Year</th>
+    <th>Gross</th>
+    <th>Anothercolumn</th>
+    <th>Fifth column</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+    <td data-th="Genre">Adventure, Sci-fi</td>
+    <td data-th="Year">1977</td>
+    <td data-th="Gross">$460,935,665</td>
+    <td data-th="Anothercolumn">ertzsfdg qwetasd qerasdfa qera</td>
+    <td data-th="Fifth column">wret24</td>
+    <td data-th="Actions">afgs 3462345 23453adfadsf asdfatera 63</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+    <td data-th="Genre">"Comedy"</td>
+    <td data-th="Year">1986</td>
+    <td data-th="Gross">$16,295,774</td>
+    <td data-th="Anothercolumn">egjuretu456</td>
+    <td data-th="Fifth column">acvyxgsze45763326</td>
+    <td data-th="Actions">dfhwtz353543</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+    <td data-th="Genre">Comedy, Drama</td>
+    <td data-th="Year">1973</td>
+    <td data-th="Gross">$115,000,000</td>
+    <td data-th="Anothercolumn">ef234574845</td>
+    <td data-th="Fifth column">345256346573111</td>
+    <td data-th="Actions">asdasdfhw</td>
+  </tr>
+  </tbody>
+</table>
+
+<h4>Everything without a columns class will break at 1440px (which is the last breakpoint)</h4>
+
+<table class="stacking-table">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Genre</th>
+    <th>Year</th>
+    <th>Gross</th>
+    <th>Anothercolumn</th>
+    <th>Fifth column</th>
+    <th>Column</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td data-th="Movie Title">Star Wars</td>
+    <td data-th="Genre">Adventure, Sci-fi</td>
+    <td data-th="Year">1977</td>
+    <td data-th="Gross">$460,935,665</td>
+    <td data-th="Anothercolumn">ertzsfdg qwetasd qerasdfa qera</td>
+    <td data-th="Fifth column">wret24</td>
+    <td data-th="Column">wret24</td>
+    <td data-th="Actions">afgs 3462345 23453adfadsf asdfatera 63</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">Howard The Duck</td>
+    <td data-th="Genre">"Comedy"</td>
+    <td data-th="Year">1986</td>
+    <td data-th="Gross">$16,295,774</td>
+    <td data-th="Anothercolumn">egjuretu456</td>
+    <td data-th="Fifth column">acvyxgsze45763326</td>
+    <td data-th="Column">acvyxgsze45763326</td>
+    <td data-th="Actions">dfhwtz353543</td>
+  </tr>
+  <tr>
+    <td data-th="Movie Title">American Graffiti</td>
+    <td data-th="Genre">Comedy, Drama</td>
+    <td data-th="Year">1973</td>
+    <td data-th="Gross">$115,000,000</td>
+    <td data-th="Anothercolumn">ef234574845</td>
+    <td data-th="Fifth column">345256346573111</td>
+    <td data-th="Column">345256346573111</td>
+    <td data-th="Actions">asdasdfhw</td>
+  </tr>
+  </tbody>
+</table>
+
+</body>
+
+</html>

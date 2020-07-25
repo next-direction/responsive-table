@@ -1,0 +1,290 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+
+.stacking-table {
+    margin: 1em 0;
+    min-width: 300px;
+}
+
+.stacking-table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.stacking-table th {
+    display: none;
+}
+
+.stacking-table td {
+    display: block;
+}
+
+.stacking-table td:first-child {
+    padding-top: .5em;
+}
+
+.stacking-table td:last-child {
+    padding-bottom: .5em;
+}
+
+.stacking-table td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: block;
+}
+
+.stacking-table th,
+.stacking-table td {
+    text-align: left;
+}
+
+body {
+    padding: 0 2em;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #444;
+    background: #eee;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #34495E;
+}
+
+.stacking-table {
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+}
+
+.stacking-table tr {
+    border-color: #46637f;
+}
+
+.stacking-table th,
+.stacking-table td {
+    margin: .5em 1em;
+}
+
+.stacking-table th,
+.stacking-table td:before {
+    color: #dd5;
+}
+
+@media screen and (min-width: 0px) {
+    .stacking-table.columns-1 td:before {
+        display: none;
+    }
+
+    .stacking-table.columns-1 th,
+    .stacking-table.columns-1 td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table.columns-1 th:first-child,
+    .stacking-table.columns-1 td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table.columns-1 th:last-child,
+    .stacking-table.columns-1 td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table.columns-1 th,
+    .stacking-table.columns-1 td {
+        padding: 1em !important;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .stacking-table.columns-2 td:before {
+        display: none;
+    }
+
+    .stacking-table.columns-2 th,
+    .stacking-table.columns-2 td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table.columns-2 th:first-child,
+    .stacking-table.columns-2 td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table.columns-2 th:last-child,
+    .stacking-table.columns-2 td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table.columns-2 th,
+    .stacking-table.columns-2 td {
+        padding: 1em !important;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .stacking-table.columns-3 td:before {
+        display: none;
+    }
+
+    .stacking-table.columns-3 th,
+    .stacking-table.columns-3 td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table.columns-3 th:first-child,
+    .stacking-table.columns-3 td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table.columns-3 th:last-child,
+    .stacking-table.columns-3 td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table.columns-3 th,
+    .stacking-table.columns-3 td {
+        padding: 1em !important;
+    }
+}
+
+@media screen and (min-width: 668px) {
+    .stacking-table.columns-4 td:before {
+        display: none;
+    }
+
+    .stacking-table.columns-4 th,
+    .stacking-table.columns-4 td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table.columns-4 th:first-child,
+    .stacking-table.columns-4 td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table.columns-4 th:last-child,
+    .stacking-table.columns-4 td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table.columns-4 th,
+    .stacking-table.columns-4 td {
+        padding: 1em !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .stacking-table.columns-5 td:before {
+        display: none;
+    }
+
+    .stacking-table.columns-5 th,
+    .stacking-table.columns-5 td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table.columns-5 th:first-child,
+    .stacking-table.columns-5 td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table.columns-5 th:last-child,
+    .stacking-table.columns-5 td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table.columns-5 th,
+    .stacking-table.columns-5 td {
+        padding: 1em !important;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    .stacking-table.columns-6 td:before {
+        display: none;
+    }
+
+    .stacking-table.columns-6 th,
+    .stacking-table.columns-6 td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table.columns-6 th:first-child,
+    .stacking-table.columns-6 td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table.columns-6 th:last-child,
+    .stacking-table.columns-6 td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table.columns-6 th,
+    .stacking-table.columns-6 td {
+        padding: 1em !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .stacking-table.columns-7 td:before {
+        display: none;
+    }
+
+    .stacking-table.columns-7 th,
+    .stacking-table.columns-7 td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table.columns-7 th:first-child,
+    .stacking-table.columns-7 td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table.columns-7 th:last-child,
+    .stacking-table.columns-7 td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table.columns-7 th,
+    .stacking-table.columns-7 td {
+        padding: 1em !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .stacking-table td:before {
+        display: none;
+    }
+
+    .stacking-table th,
+    .stacking-table td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    .stacking-table th:first-child,
+    .stacking-table td:first-child {
+        padding-left: 0;
+    }
+
+    .stacking-table th:last-child,
+    .stacking-table td:last-child {
+        padding-right: 0;
+    }
+
+    .stacking-table th,
+    .stacking-table td {
+        padding: 1em !important;
+    }
+}
